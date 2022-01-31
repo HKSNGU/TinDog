@@ -202,6 +202,10 @@ p {
     padding: 5px 5px;
 }
 
+.conta:hover{
+    color: #ff4c68;
+}
+
 .copy{
     padding-top: 20px;
 }
@@ -222,8 +226,30 @@ p {
 .submit{
     font-size: 1rem;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
 
 /* Contact Me Part End */
+
+/* Pending part Start*/
+
+    .pending {
+        background-color: #ff4c68;
+        text-align: center;
+        color: #fff;
+        margin-top: 10%;
+    }
+
+    .wink {
+        font-size: 5rem;
+    }
+
+/* Pending part End*/
 
 /* Media Query Part Start */
 
@@ -386,6 +412,17 @@ p {
     }
     .copy{
         font-size: 2rem;
+    }
+    .pending {
+        background-color: #ff4c68;
+        text-align: center;
+        color: #fff;
+        margin-top: 40%;
+    }
+
+    .wink {
+        font-size: 10rem;
+        margin-bottom: 5%;
     }
 }
 
