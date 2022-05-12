@@ -1,232 +1,66 @@
-<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>I am Himanshu</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title class="ti">TinDog</title>
-  <link rel="icon" href="favicon.ico">
-  <!-- css styles -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/9672772db5.js" crossorigin="anonymous"></script>
-  <!-- bootstrap scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- font styles -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <section id="title">
-
-    <div class="container-fluid">
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">tindog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#cta">Download</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-
-
-      <!-- Title -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
-          <a href="pending.html">
-            <button type="button" class="btn btn-dark btn-xlarge download-button"><i class="fab fa-apple"></i> Download</button>
-          </a>
-          <a href="pending.html">
-            <button type="button" class="btn btn-outline-light btn-xlarge download-button"><i class="fab fa-google-play"></i> Download</button>
-          </a>
-          </div>
-        <div class="col-lg-6">
-          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Features -->
-
-  <section id="features">
-    <div class="container-fluid">
-      <div class="row featuresrow">
-        <div class="features-colo col-lg-4 ml-auto mr-auto">
-          <i class="fas fa-check-circle feat"></i>
-          <h3 class="feature-title">Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
-        </div>
-
-        <div class="features-colo col-lg-4 ml-auto mr-auto">
-          <i class="fas fa-bullseye feat"></i>
-          <h3 class="feature-title">Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
-        </div>
-
-        <div class="features-colo col-lg-4 ml-auto mr-auto">
-          <i class="fas fa-heart feat"></i>
-          <h3 class="feature-title">Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Testimonials -->
-
-  <section id="testimonials">
-    <div class="container-fluid-testimonials">
-      <div id="testimonials-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-            <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
-            <em class="coustomer">Pebbles, New York</em>
-          </div>
-          <div class="carousel-item">
-            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-            <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
-            <em class="coustomer">Beverly, Illinois</em>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Press -->
-  
-  <section id="press">
-    <div class="container-fluid">
-      <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
-      <img class="press-img" src="images/tnw.png" alt="tnw-logo">
-      <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
-      <img class="press-img" src="images/mashable.png" alt="mashable-logo">
-    </div>
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section id="pricing">
-      <h2 class="pricing-heading">A Plan for Every Dog's Needs</h2>
-      <p class="pricing-text">Simple and affordable price plans for your dog.</p>
-      <p> ------------------------------ </p>
-      <div class="row">
-
-        <div class="col-lg-4 pricing-col">
-          <div class="card">
-            <div class="card-header">
-              <h3>Chihuahua</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="section-heading">Free</h2>
-              <p>5 Matches Per Day</p>
-              <p>10 Messages Per Day</p>
-              <p>Unlimited App Usage</p>
-              <a href="pending.html">
-                <button type="button" class="btn btn-xlarge btn-block btn-outline-dark">Sign Up</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 pricing-col">
-          <div class="card">
-            <div class="card-header">
-              <h3>Labrador</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="section-heading">$49 / mo</h2>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <a href="pending.html">
-              <button type="button" class="btn btn-xlarge btn-block btn-dark">Sign Up</button>
-              </a>
-            </div>
-          </div>
-        </div>
+  <body>
+    <div class="top-container">
+      <h1>I'm Himanshu</h1>
+      <h2 class="WebDeve">---a web developer & programmer---</h2>
+      <img class="asia" src="images/asia.png" alt="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif" />
       
-        <div class="col-lg-4 pricing-col">
-          <div class="card">
-            <div class="card-header">
-              <h3>Mastiff</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="section-heading">$99 / mo</h2>
-              <p>Pirority Listing</p>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <a href="pending.html">
-                <button type="button" class="btn btn-xlarge btn-block btn-dark">Sign Up</button>
-              </a>
-            </div>
-          </div>
+    </div>
+
+    <div class="middle-container">
+      <div class="pro">
+        <img class= "profile" src="images/profile3.png" alt="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif">
+        <h2 class = "hello">Hello.</h2>
+        <p>I am an engineering student of <a href="https://www.bpmcemadhepura.org/"> B.P.M.C.E. </a>,<br> Currently persuing btech in cse branch (2nd sem),<br>I 💖 fitness.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="coding" src="images/SkillsCoding.png" alt="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif">
+          <h3>Programming</h3>
+          <p>I started programming in 2k20, The first language i learned is c from nptel from then i am continously practicing problems on hackerrank and trying to improve my problem solving skill.</p>
+        </div>
+        <div class="skill-row">
+          <img class="art" src="images/Illustrator.png" alt="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif">
+          <h3>Vector Art & Design</h3>
+          <p>I learned adobe illustrator in 2k21. I have created some icons & arts for my clients and for personal use.</p>
+          <p>for more detail <a href="VectorArt.html">Click Here</a></p>
+        </div>
+        <div class="skill-row">
+          <img class="WebDev" src="images/webdev.png" alt="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif">
+          <h3>Web Development</h3>
+          <p>I completed "master course for web development" on udemy in 2k21 which includes Html, Css, Bootstrap, js, jquery, Node.js, Express.js, APIs, SQL, MongoDB, React.js</p>
+          <p>To see some of my work on HTML, CSS, Bootstrap & Js <a href="https://hksngu.github.io/TinDog/">Click Here</a></p>
         </div>
       </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Need Help ?.</h3>
+        <p>Are you looking for a good web developer & programmer ? we can talk , make projects together and help each other</p>
+        <a class="btn" href="ContactMe.html">CONTACT ME</a>
+      </div>
     </div>
-  </section>
-
-  <!-- Call to Action -->
-
-    <section id="cta">
-      <div class = "container-fluid-cta">
-        <h1 class="cta-text">Find the True Love of Your Dog's Life Today.</h1>
-        <a href="pending.html">
-          <button type="button" class="btn btn-dark btn-xlarge download-button"><i class="fab fa-apple"></i> Download</button>
-        </a>
-        <a href="pending.html">
-          <button type="button" class="btn btn-light btn-xlarge download-button"><i class="fab fa-google-play"></i> Download</button>
-        </a>
-      </div>
-    </section>
 
 
-    <!-- Footer -->
+    <div class="bottom-container">
+      <a class="facebook" href="https://www.facebook.com/himanshu.sah.7509/">Facebook</a>
+      <a class="instagram" href="https://www.instagram.com/hksngu/">Instagram</a>
+      <a class="twitter" href="https://twitter.com/HKSNGU">Twitter</a>
+      <p class="copy">© 2020 Himanshu sah.</p>
+    </div>
 
-    <footer id="footer">
-      <div class = "container-fluid">
-        <a class="facebook con" href="https://www.facebook.com/himanshu.sah.7509/"><i class="fab fa-facebook-f conta"></i></a>
-        <a class="instagram con" href="https://www.instagram.com/hksngu/"><i class="fab fa-instagram conta"></i></a>
-        <a class="twitter con" href="https://twitter.com/HKSNGU"><i class="fab fa-twitter conta"></i></a>
-        <a class="contact-me con" href="ContactMe.html"><i class="fas fa-envelope conta"></i></a>
-        <p class ="copy">© Copyright 2022 TeamUntitled</p>
-      </div>
-    </footer>
 
-</body>
-
+  <foot> </foot>
 </html>
